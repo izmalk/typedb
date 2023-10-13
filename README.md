@@ -38,7 +38,7 @@ Data frequently exhibits polymorphic features in the form of inheritance hierarc
 - [ORMs work around the fundamental problem](https://typedb.com/philosophy#why-do-we-need-a-polymorphic-database) by trading off performance.
 
 
-### Providing full support for polymorphism
+### Key components
 
 <!-- Polymorphism in programming languages and data modeling comes in the form of [interface](https://typedb.com/philosophy#what-defines-a-polymorphic-database), [inheritance](https://typedb.com/philosophy#what-defines-a-polymorphic-database), and [parametric polymorphism](https://typedb.com/philosophy#what-defines-a-polymorphic-database).  -->
 
@@ -144,7 +144,8 @@ TypeDB breaks down the patchwork of existing database paradigms into three funda
 
 - Make use of full [object model parity](https://typedb.com/#solve-object-relational-mismatch-entirely-within-the-database) when working with OOP
 - Ensure [continuous extensibility](https://typedb.com/features#conceptual-modeling) of your data model
-- Work with high-level [logical abstractions](https://typedb.com/features#conceptual-modeling) eliminating the need for physical data modeling
+- Work directly with high-level [conceptual models](https://typedb.com/features#conceptual-modeling) eliminating the need for physical-level data modeling
+- Use [logical abstractions](...) to fuse application logic into your database design
 - Let TypeDB's inference engine guarantee [data-consistency](https://typedb.com/#avoid-data-redundancy-and-ensure-data-consistency-in-real-time) at all times
 - Write high-clarity code with TypeQL's [near-natural](https://typedb.com/features#modern-language) queries even for the most complex databases
 - Unleash the power of [fully declarative and composable](https://typedb.com/features#modern-language) patterns onto your data
@@ -155,7 +156,7 @@ TypeDB breaks down the patchwork of existing database paradigms into three funda
 ### TypeDB editions
 
 * [TypeDB Cloud](https://cloud.typedb.com) — multi-cloud DBaaS
-* [TypeDB Enterprise](mailto://sales@vaticle.com) — Enterprise edition of TypeDB
+* [TypeDB Enterprise](https://typedb.com/?dialog=contact) — Enterprise edition of TypeDB
 * **TypeDB Core** — Open-source edition of TypeDB ← _This repository_
 
 For a comparison of all three editions, see the [Deploy](https://typedb.com/deploy) page on our website.
