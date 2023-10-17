@@ -29,11 +29,11 @@ TypeDB is a [polymorphic](https://typedb.com/features#polymorphic-queries) datab
 
 ##  Why we built TypeDB
 
-Data frequently exhibits polymorphic features in the form of inheritance hierarchies and interface dependencies. TypeDB was crafted to solve the inability of current database paradigms to natively express these polymorphic features.
+Data frequently exhibits [polymorphic features](https://typedb.com/philosophy#why-do-we-need-a-polymorphic-database) in the form of inheritance hierarchies and interface dependencies. TypeDB was crafted to solve the inability of current database paradigms to natively express these polymorphic features.
 
-- Relational schemas have [no native capability for modeling polymorphic data](https://typedb.com/philosophy#why-do-we-need-a-polymorphic-database).
-- Unstructured databases eliminate the schemas entirely, but this [prevents declarative data retrieval](https://typedb.com/philosophy#why-do-we-need-a-polymorphic-database).
-- [ORMs work around the fundamental problem](https://typedb.com/philosophy#why-do-we-need-a-polymorphic-database) by trading off performance.
+- Relational schemas have no native capability for modeling polymorphic data.
+- Unstructured databases eliminate the schemas entirely, but this prevents declarative data retrieval.
+- ORMs work around the fundamental problem by trading off performance.
 
 You can check out our TypeDB [quickstart](https://typedb.com/docs/typedb/2.x/quickstart-guide) for a quick overview of how TypeDB works, or learn more about TypeDB's [features](https://typedb.com/features).
 
@@ -148,7 +148,7 @@ TypeDB breaks down the patchwork of existing database paradigms into three funda
 - Make use of full [object model parity](https://typedb.com/#solve-object-relational-mismatch-entirely-within-the-database) when working with OOP
 - Ensure [continuous extensibility](https://typedb.com/features#conceptual-modeling) of your data model
 - Work directly with high-level [conceptual models](https://typedb.com/features#conceptual-modeling) eliminating the need for physical-level data modeling
-- Use [logical abstractions](...) to fuse application logic into your database design
+- Use [logical abstractions](https://typedb.com/#extend-your-data-model-continuously-without-refactoring-or-migrations) to fuse application logic into your database design
 - Let TypeDB's inference engine guarantee [data-consistency](https://typedb.com/#avoid-data-redundancy-and-ensure-data-consistency-in-real-time) at all times
 - Write high-clarity code with TypeQL's [near-natural](https://typedb.com/features#modern-language) queries even for the most complex databases
 - Unleash the power of [fully declarative and composable](https://typedb.com/features#modern-language) patterns onto your data
