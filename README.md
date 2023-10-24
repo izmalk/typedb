@@ -3,19 +3,19 @@
 <div align="center">
   <a href="https://factory.vaticle.com/vaticle/typedb">
     <img alt="Factory" src="https://factory.vaticle.com/api/status/vaticle/typedb/badge.svg" />
-  </a>
+  </a> &nbsp;
   <a href="https://circleci.com/gh/vaticle/typedb/tree/master">
     <img alt="CircleCI" src="https://circleci.com/gh/vaticle/typedb/tree/master.svg?style=shield" />
-  </a>
+  </a> &nbsp;
   <a href="https://github.com/vaticle/typedb/releases/latest">
     <img alt="GitHub release" src="https://img.shields.io/github/release/vaticle/typedb.svg">
-  </a>
+  </a> &nbsp;
   <a href="https://vaticle.com/discord">
     <img alt="Discord" src="https://img.shields.io/discord/665254494820368395?color=7389D8&label=chat&logo=discord&logoColor=ffffff" />
-  </a>
+  </a> &nbsp;
   <a href="https://forum.vaticle.com">
     <img alt="Discussion Forum" src="https://img.shields.io/discourse/https/forum.vaticle.com/topics.svg" />
-  </a>
+  </a> &nbsp;
   <a href="https://stackoverflow.com/questions/tagged/typedb">
     <img alt="Stack Overflow" src="https://img.shields.io/badge/stackoverflow-typedb-796de3.svg">
   </a>
